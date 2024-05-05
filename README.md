@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+Description of Project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Basic To-Do Application is a simple yet functional task management tool developed using ReactJS, showcasing proficiency in HTML, CSS, JavaScript, React components, hooks, and state management using Redux.
 
-## Available Scripts
+Frontend Development:
 
-In the project directory, you can run:
+HTML Structure: The application's layout is structured using HTML, providing a solid foundation for user interaction and visual representation of tasks.
+CSS Styling: CSS has been utilized to style the application, ensuring a visually appealing and user-friendly interface. While CSS frameworks like Bootstrap or Material-UI could have been employed for design components, custom styling has been implemented for a personalized touch.
+JavaScript Logic: The application logic is implemented using JavaScript (ES6 or later), allowing for dynamic interaction and seamless task management.
+React Components:
 
-### `npm start`
+Functional Components: The application is developed using functional components, leveraging React's latest features and best practices for efficient and maintainable code.
+React Hooks: React hooks such as useState and useEffect are employed throughout the application, enabling stateful logic and side effects within functional components.
+TaskInput Component: A dedicated component, TaskInput, facilitates the addition of new tasks. Users can input task details into a text field and add them to the task list with ease.
+TaskList Component: The TaskList component is responsible for displaying the list of tasks added by the user. Tasks are presented in a clear and concise format, ensuring optimal readability.
+State Management:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Redux Integration: Redux is utilized to manage the application's state effectively. Tasks are stored in the Redux store, and state updates are handled seamlessly when adding or removing tasks.
+Actions and Reducers: Actions and reducers are implemented to manage the state logic efficiently. Actions trigger state updates, while reducers specify how the application's state should change in response to those actions.
+Functionality:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add Task: Users can effortlessly add tasks to the list by inputting task details into a designated text field and pressing a button or hitting the Enter key. The application ensures a smooth and intuitive task addition process.
+View Tasks: All added tasks are displayed in a structured list format, enabling users to view their tasks at a glance. The task list presentation enhances user experience and promotes task organization.
+Delete Task: Each task in the list is equipped with a delete button. When clicked, the delete button removes the corresponding task from the list, allowing users to manage their tasks efficiently and declutter the interface.
